@@ -20,13 +20,13 @@ All information issued by the Architype team should be saved here, on the Archit
 ## Live Information
 All *‘live’* information (including Revit models, linked data, families and shared parameters) should be saved either on the Architype server, or on BIM360. 
 
-#### Server:
+#### Server
 If you’re not using BIM360, information should be saved in the Revit folder for the appropriate project Stage. 
 > Project – C Architectural Design – C00 Stages – RIBA Stage – 1 Revit
 
 This ‘1 Revit’ folder is split down into sub-folders, as described below. 
 
-#### Autodesk BIM360: 
+#### Autodesk BIM360
 If a project is saved on BIM360, the project’s BIM360 folder effectively becomes the ‘1 Revit’ folder above, and should be set up with the sub-folders described below.
 
 !!! Note

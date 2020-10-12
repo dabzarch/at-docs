@@ -71,7 +71,7 @@ Default project units shall be as set out in the table below:
 ## Setting up the Project Browser
 
 ### Sheets
-Sheets should be organised in Revit through their numbering, sorting them into View Group & Sub View Group. For more information on numbering, see Section 4.2.
+Sheets should be organised in Revit through their numbering, sorting them into View Group & Sub View Group. For more information on numbering, see  ['Number'](file-naming.md) in 'File Naming'
 
 -	**‘View Group’**: indicates the series number 
 -	**‘Sub View Group’**: indicates the sub series number
@@ -109,9 +109,9 @@ Although this process is incorporated into the Architype Template, for those wor
 
 The majority of project Revit models will be stored on BIM360, certainly any project with more than one person needing access. Where this is the case, a cloud model must be created. 
 
-Firstly the model is created on the Architype server, using the correct template, units and coordinates as above. It should be named correctly in accordance with Section 4.1. 
+Firstly the model is created on the Architype server, using the correct template, units and coordinates as above. It should be named correctly in accordance with ['File Naming'](file-naming.md)
 
-Secondly, the job will be set up as a project on BIM360 (this will be done by one of Architype’s BIM360 admins – contact them through the Architype *#RevithowdoIdothat* Slack Channel in plenty of time). The folders outlined in Section 3.1 will need to be created - this can be done manually in BIM360, or the folders can be copied from an empty folder structure template onto BIM360  through Desktop Connector (Section 3.2) to save time. 
+Secondly, the job will be set up as a project on BIM360 (this will be done by one of Architype’s BIM360 admins – contact them through the Architype *#revithowdoidothat* Slack Channel in plenty of time). The folders outlined in ['Folder Structure'](folder-structure.md) will need to be created - this can be done manually in BIM360, or the folders can be copied from an empty folder structure template onto BIM360 through As described in ['Desktop Connector'](folder-structure.md#desktopconnector) to save time. 
 
 Once all of this is in place, the model should be pushed to the cloud using the ‘collaborate’ tab as shown below. 
 
@@ -183,7 +183,7 @@ Typically, a project is expected to include the following worksets which are set
 
 In order to set up new Worksets either click on the worksets icon at the bottom of the screen, or access via the ‘Collaborate’ tab – ‘Manage Collaboration’ – ‘Worksets’.
 
-In the Worksets dialogue click ‘New’ and enter a name (worksets must be named in accordance with protocol outlined in Section 7.6). 
+In the Worksets dialogue click ‘New’ and enter a name (worksets must be named in accordance with protocol outlined in ['Component Naming'](component-naming.md#worksets) . 
 
 To display the workset in all project views as default select ‘Visible in all views’. Clear this option if you want the workset to display only in views where you specifically turn on its visibility. 
 
