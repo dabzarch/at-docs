@@ -1,0 +1,651 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      <link rel="shortcut icon" href="../../img/favicon.ico">
+      <meta name="generator" content="mkdocs-1.1.2, mkdocs-material-6.0.2">
+    
+    
+      
+        <title>Project Template - Architype learn</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.38780c08.min.css">
+      
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.3f72e892.min.css">
+        
+          
+          
+          <meta name="theme-color" content="#000000">
+        
+      
+    
+    
+    
+      
+        
+        <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,700%7C&display=fallback">
+        <style>body,input{font-family:"Roboto",-apple-system,BlinkMacSystemFont,Helvetica,Arial,sans-serif}code,kbd,pre{font-family:"",SFMono-Regular,Consolas,Menlo,monospace}</style>
+      
+    
+    
+    
+      <link rel="stylesheet" href="../../stylesheets/extra.css">
+    
+    
+      
+    
+    
+  </head>
+  
+  
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="preference" data-md-color-primary="black" data-md-color-accent="deep-orange">
+      
+        <script>matchMedia("(prefers-color-scheme: dark)").matches&&document.body.setAttribute("data-md-color-scheme","slate")</script>
+      
+  
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#project-template" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+      <header class="md-header" data-md-component="header">
+  <nav class="md-header-nav md-grid" aria-label="Header">
+    <a href="../.." title="Architype learn" class="md-header-nav__button md-logo" aria-label="Architype learn">
+      
+  <img src="../../material/library/logo.png" alt="logo">
+
+    </a>
+    <label class="md-header-nav__button md-icon" for="__drawer">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2z"/></svg>
+    </label>
+    <div class="md-header-nav__title" data-md-component="header-title">
+      
+        <div class="md-header-nav__ellipsis">
+          <span class="md-header-nav__topic md-ellipsis">
+            Architype learn
+          </span>
+          <span class="md-header-nav__topic md-ellipsis">
+            
+              Project Template
+            
+          </span>
+        </div>
+      
+    </div>
+    
+      <label class="md-header-nav__button md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0116 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 019.5 16 6.5 6.5 0 013 9.5 6.5 6.5 0 019.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5z"/></svg>
+      </label>
+      
+<div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" data-md-state="active">
+      <label class="md-search__icon md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0116 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 019.5 16 6.5 6.5 0 013 9.5 6.5 6.5 0 019.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5z"/></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+      </label>
+      <button type="reset" class="md-search__icon md-icon" aria-label="Clear" data-md-component="search-reset" tabindex="-1">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41z"/></svg>
+      </button>
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+  </nav>
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              <div class="md-sidebar md-sidebar--primary" data-md-component="navigation">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    <nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="Architype learn" class="md-nav__button md-logo" aria-label="Architype learn">
+      
+  <img src="../../material/library/logo.png" alt="logo">
+
+    </a>
+    Architype learn
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../.." class="md-nav__link">
+      Home
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-nav__toggle md-toggle" data-md-toggle="nav-2" type="checkbox" id="nav-2">
+    
+    <label class="md-nav__link" for="nav-2">
+      Revit Standards
+      <span class="md-nav__icon md-icon"></span>
+    </label>
+    <nav class="md-nav" aria-label="Revit Standards" data-md-level="1">
+      <label class="md-nav__title" for="nav-2">
+        <span class="md-nav__icon md-icon"></span>
+        Revit Standards
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../introduction-main/" class="md-nav__link">
+      Introduction
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../project-setup/" class="md-nav__link">
+      Project Setup
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../folder-structure/" class="md-nav__link">
+      Folder Structure *
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../file-naming/" class="md-nav__link">
+      File Naming *
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../sheet-naming/" class="md-nav__link">
+      Sheet Naming *
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../view-naming/" class="md-nav__link">
+      View Naming *
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../component-naming/" class="md-nav__link">
+      Component Naming *
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../annotation/" class="md-nav__link">
+      Annotation *
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../groups/" class="md-nav__link">
+      Groups *
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../desktop-shortcuts/" class="md-nav__link">
+      Desktop Shortcuts *
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-nav__toggle md-toggle" data-md-toggle="nav-3" type="checkbox" id="nav-3">
+    
+    <label class="md-nav__link" for="nav-3">
+      Revit PHPP Plugins
+      <span class="md-nav__icon md-icon"></span>
+    </label>
+    <nav class="md-nav" aria-label="Revit PHPP Plugins" data-md-level="1">
+      <label class="md-nav__title" for="nav-3">
+        <span class="md-nav__icon md-icon"></span>
+        Revit PHPP Plugins
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../revit-phpp-plugins/introduction-phpp-plugins/" class="md-nav__link">
+      Introduction
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../revit-phpp-plugins/window-family/" class="md-nav__link">
+      PHPP Window Family
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-nav__toggle md-toggle" data-md-toggle="nav-4" type="checkbox" id="nav-4">
+    
+    <label class="md-nav__link" for="nav-4">
+      Navisworks
+      <span class="md-nav__icon md-icon"></span>
+    </label>
+    <nav class="md-nav" aria-label="Navisworks" data-md-level="1">
+      <label class="md-nav__title" for="nav-4">
+        <span class="md-nav__icon md-icon"></span>
+        Navisworks
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../navisworks/introduction-navisworks/" class="md-nav__link">
+      Introduction
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-nav__toggle md-toggle" data-md-toggle="nav-5" type="checkbox" id="nav-5">
+    
+    <label class="md-nav__link" for="nav-5">
+      BIMCollab
+      <span class="md-nav__icon md-icon"></span>
+    </label>
+    <nav class="md-nav" aria-label="BIMCollab" data-md-level="1">
+      <label class="md-nav__title" for="nav-5">
+        <span class="md-nav__icon md-icon"></span>
+        BIMCollab
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../bimcollab/introduction-bimcollab/" class="md-nav__link">
+      Introduction
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../../about/about-this-site/" class="md-nav__link">
+      About
+    </a>
+  </li>
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="toc">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+    
+  
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          <div class="md-content">
+            <article class="md-content__inner md-typeset">
+              
+                
+                
+                <h1 id="project-template">Project Template<a class="headerlink" href="#project-template" title="Permanent link">&para;</a></h1>
+<p>Where a new project is created in Revit the most up to date version of the ‘Architype Template’ shall be used. This no longer requires users to locate the template on the server, instead, simply open Revit, go to ‘File’ ‘New’ – and select ‘Architype Template’. </p>
+<p><a href="/img/2.1-project-template.png" target="_blank">
+    <img :target="_blank" alt="Template" src="img/2.1-project-template.png" style="height:200px" />
+</a></p>
+<p>Architype’s Revit Template is a read-only document and must not be edited by any member of staff.</p>
+<p>The template contains preloaded Detail Items, Filled Regions, View Templates, Worksets and Basic Wall/Floor/Roof Types. It also contains predefined Text Types, Line Styles and Browser Organisation. This is done to speed up the process of starting a new project and ensures that there are examples of correct naming within the project. </p>
+<p>The template will be regularly updated to ensure compliance with current BS EN ISO Standards. If a high standard view template, detail component etc, has been created which works well and may be of value to others, then contact one of Architype’s Information Management team to have it inserted into the next revision of the template. </p>
+<h1 id="coordinate-system">Coordinate system<a class="headerlink" href="#coordinate-system" title="Permanent link">&para;</a></h1>
+<p>All Revit models shall use a consistent and uniform coordinate system throughout the project’s lifecycle to ensure information is always precisely aligned. </p>
+<p>Shared coordinates should <strong>only</strong> be acquired from a <strong>separate site model</strong> i.e. you should create a geolocated site model from a survey to share with all other disciplines. The main building is then modelled in a separate Revit file. This will make it easier for other consultants to acquire coordinates, it is also easier if the building needs to move.</p>
+<h3 id="survey-point">Survey Point<a class="headerlink" href="#survey-point" title="Permanent link">&para;</a></h3>
+<p>The survey point identifies a real-world location near the model, such as a corner of the project site or the intersection of 2 property lines. It defines the origin of the survey coordinate system, which provides a real-world context for the model. </p>
+<h3 id="project-base-point">Project Base Point<a class="headerlink" href="#project-base-point" title="Permanent link">&para;</a></h3>
+<p>The project base point defines the origin (0,0,0) of the project coordinate system, used as a reference point for measurements across the site. Where there are gridlines in a project, the preference is to place the Project Base Point at the intersection of grid A-1. </p>
+<h3 id="internal-origin-or-start-up-location">Internal Origin (or Start-up Location):<a class="headerlink" href="#internal-origin-or-start-up-location" title="Permanent link">&para;</a></h3>
+<p>The internal origin is the starting point for the internal coordinate system, which provides the basis for positioning all elements in the model. The location of the internal origin never moves. It’s the origin from which the survey point (and real-world context) and project base point are established. </p>
+<p><a href="/img/02-project-base-point.png" target="_blank">
+    <img :target="_blank" alt="Template" src="img/02-project-base-point.png" style="height:200px" />
+</a></p>
+<p>The following table is included within Architype’s standard BIM Execution Plan (BEP) – and, where we are employed as BIM Manager, this will need to be filled in by the project team at the start of the project. </p>
+<p><a href="/img/02-coordination-table.png" target="_blank">
+    <img :target="_blank" alt="Template" src="img/02-coordination-table.png" style="height:150px" />
+</a></p>
+<h1 id="project-units">Project Units<a class="headerlink" href="#project-units" title="Permanent link">&para;</a></h1>
+<p>It is important to use consistent units and measurement across the project. </p>
+<p>Default project units shall be as below. </p>
+<p><strong>Note: temporary dimensions (such as the below screenshot) will display with decimal places.</strong></p>
+<h1 id="setting-up-the-project-browser">Setting up the Project Browser<a class="headerlink" href="#setting-up-the-project-browser" title="Permanent link">&para;</a></h1>
+<h3 id="sheets">Sheets<a class="headerlink" href="#sheets" title="Permanent link">&para;</a></h3>
+<p>Sheets should be organised in Revit through their numbering, sorting them into View Group &amp; Sub View Group. For more information on numbering, see Section 4.2.</p>
+<ul>
+<li><strong>‘View Group’</strong>: indicates the series number </li>
+<li><strong>‘Sub View Group’</strong>: indicates the sub series number</li>
+</ul>
+<p>These can be found, and edited, in the properties bar of a selected sheet or view. </p>
+<p>In order to set up this organisation at the start of a project, follow these steps: </p>
+<h3 id="views">Views<a class="headerlink" href="#views" title="Permanent link">&para;</a></h3>
+<p>Revit views are categorised into:</p>
+<ul>
+<li><strong>01 Working</strong> (day-to-day working views)</li>
+<li><strong>02 Drawing Set</strong> (views which are on sheets)</li>
+<li><strong>03 Presentation</strong> (views to be taken into other pieces of software for presentation)</li>
+<li><strong>04 Coordination</strong> (views to assist with coordination, i.e. overlaying imported models)</li>
+</ul>
+<p>Note: Within 01 Working category you can put your initials at the end of the view name to let other team members know you are working on this particular view. When you are done or no longer need the view it should be deleted.</p>
+<p>To ensure that the project browser stays as organised as possible, views from the ‘02 Drawing Set’ should be placed on sheets as soon as possible. Once they are on sheets they will be automatically removed from the browser and accessed only through the sheets. This keeps the project browser tidy and makes sure that drawings are always developed in the context of a sheet. </p>
+<p>Although this process is incorporated into the Architype Template, for those working in projects already set up on previous templates, the process below can be followed. </p>
+<h1 id="creating-a-cloud-model">Creating a Cloud Model<a class="headerlink" href="#creating-a-cloud-model" title="Permanent link">&para;</a></h1>
+<p>The majority of project Revit models will be stored on BIM360, certainly any project with more than one person needing access. Where this is the case, a cloud model must be created. </p>
+<p>Firstly the model is created on the Architype server, using the correct template, units and coordinates as above. It should be named correctly in accordance with Section 4.1. </p>
+<p>Secondly, the job will be set up as a project on BIM360 (this will be done by one of Architype’s BIM360 admins – contact them through the Architype <em>#RevithowdoIdothat</em> Slack Channel in plenty of time). The folders outlined in Section 3.1 will need to be created - this can be done manually in BIM360, or the folders can be copied from an empty folder structure template onto BIM360  through Desktop Connector (Section 3.2) to save time. </p>
+<p>Once all of this is in place, the model should be pushed to the cloud using the ‘collaborate’ tab as shown below. </p>
+<h1 id="project-information">Project Information<a class="headerlink" href="#project-information" title="Permanent link">&para;</a></h1>
+<h3 id="starting-view">Starting View<a class="headerlink" href="#starting-view" title="Permanent link">&para;</a></h3>
+<p>The template file contains a ‘Starting View’. This is the view which holds key project information and opens up first when you open Revit. Once in Revit, it can be found within Legends in the Project Browser.</p>
+<p>The following information must be filled in at the beginning of the project: </p>
+<p><strong>‘PROJECT INFORMATION’</strong>
+-   Number, Name, Client, User Client, Employer/Client (D&amp;B)
+<strong>‘KEY PROJECT DATA’</strong>
+-   Ground Floor FFL
+<strong>‘FILE INFORMATION’</strong>
+-   ‘File Created by’ should be your company email address.
+-   ‘Revit version’: To find out this, go to the small down arrow beside the help button at the top right of the screen – then to <em>‘About Autodesk Revit’</em>, this will open up a window containing the information relating to the version you are working in. </p>
+<h3 id="manage">Manage<a class="headerlink" href="#manage" title="Permanent link">&para;</a></h3>
+<p>While filling in the required information on the Starting View, the Project Location and Project Information should also be filled in. These can both be found under the ‘Manage’ tab. </p>
+<h3 id="project-location">Project Location:<a class="headerlink" href="#project-location" title="Permanent link">&para;</a></h3>
+<p>‘Manage’ tab – ‘Project Location’ category – ‘Location’ button. The address of the site should be enetered here.</p>
+<h3 id="project-information_1">Project Information:<a class="headerlink" href="#project-information_1" title="Permanent link">&para;</a></h3>
+<p>‘Manage’ tab – ‘Settings’ category – ‘Project Information’ button. Enter all known project information here.</p>
+<h1 id="worksets">Worksets<a class="headerlink" href="#worksets" title="Permanent link">&para;</a></h1>
+<p>A workset is a collection of elements in a model. They are useful to help organise elements so members of a team can choose to display and work on selected worksets.</p>
+<p>They can be found by clicking on this icon (<strong>insert icon here</strong>) at the bottom of the Revit window.  </p>
+<p>Typically, a project is expected to include the following worksets which are set up within the Architype Revit Template</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>There will also be the Revit default <em>‘Workset1’</em> and <em>‘Shared Levels and Grids’</em> workset. These shall be kept intact. Shared Levels and Grids shall contain all Levels and Grids elements to allow for easy maintenance across the board. </p>
+</div>
+<p>In order to set up new Worksets either click on the worksets icon at the bottom of the screen, or access via the ‘Collaborate’ tab – ‘Manage Collaboration’ – ‘Worksets’.</p>
+<p>In the Worksets dialogue click ‘New’ and enter a name (worksets must be named in accordance with protocol outlined in Section 7.6). </p>
+<p>To display the workset in all project views as default select ‘Visible in all views’. Clear this option if you want the workset to display only in views where you specifically turn on its visibility. </p>
+<h1 id="copymonitor-strategy-for-datum-elements">Copy/Monitor Strategy for Datum Elements<a class="headerlink" href="#copymonitor-strategy-for-datum-elements" title="Permanent link">&para;</a></h1>
+<p>When collaborating on a project with other teams, use the Copy/Monitor tool to monitor and coordinate changes to important elements of the design. Use the Copy/Monitor tool when the following statements are true: </p>
+<ul>
+<li>The architectural team, the structural team, and the engineering team use Revit software. </li>
+<li>Each team must be informed of changes to levels, grids, and other elements. </li>
+<li>The teams will link models to work on the same building design. Each team maintains its own edition of the model and uses Revit software to develop the design for their discipline. Each model is linked to the other models to share information about changes to monitored elements in the building design. </li>
+</ul>
+<p>This will allow the other teams to control the graphical representation of datum elements within their model while maintaining correct relationship. Also, any changes to Levels and Grids in the parent model which the levels were copied from will create a warning in the model which they were copied to. Creating a single point of truth, eliminating possible errors.  </p>
+<p>Under the ‘Collaborate’ tab there is a ‘Copy/Monitor’ button, select this then ‘Select Link’ and click on the link you wish to copy/monitor levels from. A new options bar will appear, select ‘Copy’, tick ‘Multiple’ then click on to the levels. Note that you must select the small finish button after clicking on each level, when that’s done select the large finish button to end the process. </p>
+<p>"<strong>Insert image ref here</strong>"</p>
+<p>Click here for more information from Autodesk Knowledge network. </p>
+<h1 id="adding-sheet-revisions">Adding Sheet Revisions<a class="headerlink" href="#adding-sheet-revisions" title="Permanent link">&para;</a></h1>
+<p>All drawings which are issued from Revit will require a revision (the first time a drawing is issued it will go out as Rev 01). Nothing will ever be issued as Rev – or Rev 0. For more information refer to Section 4.
+To add a revision to the project, go to the ‘View Tab’ – the ‘Sheet Composition’ panel – then click ‘Revisions’. Add a revision and fill in all the required information:</p>
+<p>"<strong>Insert image ref here</strong>"</p>
+<p><strong>Date:</strong> enter the date on which the drawing will be issued</p>
+<p><strong>Description:</strong> enter the description of the revision. This will show in the revision schedule on the sheet. </p>
+<p><strong>Issued to:</strong> this will read as ‘Checked’ on the sheet revision schedule. The initials of the person who checked the drawing should be entered here.</p>
+<p><strong>Issued by:</strong> this will read as ‘Drawn’ on the sheet revision schedule. The initials of the person who did the drawing, or made the revision, should be entered here.</p>
+<p>To enter a revision onto a sheet, go to the properties of the sheet and select the ‘Edit’ button beside options. This will allow you to tick the revisions you want to add to the sheet. </p>
+<p>"<strong>Insert image ref here</strong>"</p>
+<p>This is how they will appear in the Titleblock:</p>
+<p>"<strong>Insert image ref here</strong>"</p>
+                
+              
+              
+                
+
+
+              
+            </article>
+          </div>
+        </div>
+      </main>
+      
+        
+<footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-footer-copyright">
+        
+          <div class="md-footer-copyright__highlight">
+            &copy; Architype Ltd, 2020
+
+          </div>
+        
+        Made with
+        <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+          Material for MkDocs
+        </a>
+      </div>
+      
+  <div class="md-footer-social">
+    
+      
+      
+        
+        
+      
+      <a href="https://architypeukcomms.slack.com/archives/CVC8CUQTX" target="_blank" rel="noopener" title="architypeukcomms.slack.com" class="md-footer-social__link">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M94.12 315.1c0 25.9-21.16 47.06-47.06 47.06S0 341 0 315.1c0-25.9 21.16-47.06 47.06-47.06h47.06v47.06zm23.72 0c0-25.9 21.16-47.06 47.06-47.06s47.06 21.16 47.06 47.06v117.84c0 25.9-21.16 47.06-47.06 47.06s-47.06-21.16-47.06-47.06V315.1zm47.06-188.98c-25.9 0-47.06-21.16-47.06-47.06S139 32 164.9 32s47.06 21.16 47.06 47.06v47.06H164.9zm0 23.72c25.9 0 47.06 21.16 47.06 47.06s-21.16 47.06-47.06 47.06H47.06C21.16 243.96 0 222.8 0 196.9s21.16-47.06 47.06-47.06H164.9zm188.98 47.06c0-25.9 21.16-47.06 47.06-47.06 25.9 0 47.06 21.16 47.06 47.06s-21.16 47.06-47.06 47.06h-47.06V196.9zm-23.72 0c0 25.9-21.16 47.06-47.06 47.06-25.9 0-47.06-21.16-47.06-47.06V79.06c0-25.9 21.16-47.06 47.06-47.06 25.9 0 47.06 21.16 47.06 47.06V196.9zM283.1 385.88c25.9 0 47.06 21.16 47.06 47.06 0 25.9-21.16 47.06-47.06 47.06-25.9 0-47.06-21.16-47.06-47.06v-47.06h47.06zm0-23.72c-25.9 0-47.06-21.16-47.06-47.06 0-25.9 21.16-47.06 47.06-47.06h117.84c25.9 0 47.06 21.16 47.06 47.06 0 25.9-21.16 47.06-47.06 47.06H283.1z"/></svg>
+      </a>
+    
+  </div>
+
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    
+      <script src="../../assets/javascripts/vendor.77e55a48.min.js"></script>
+      <script src="../../assets/javascripts/bundle.9554a270.min.js"></script><script id="__lang" type="application/json">{"clipboard.copy": "Copy to clipboard", "clipboard.copied": "Copied to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.result.placeholder": "Type to start searching", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.term.missing": "Missing"}</script>
+      
+      <script>
+        app = initialize({
+          base: "../..",
+          features: ['navigation.instants'],
+          search: Object.assign({
+            worker: "../../assets/javascripts/worker/search.4ac00218.min.js"
+          }, typeof search !== "undefined" && search)
+        })
+      </script>
+      
+    
+  </body>
+</html>
