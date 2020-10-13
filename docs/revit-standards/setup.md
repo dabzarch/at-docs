@@ -3,7 +3,7 @@
 Where a new project is created in Revit the most up to date version of the ‘Architype Template’ shall be used. This no longer requires users to locate the template on the server, instead, simply open Revit, go to ‘File’ ‘New’ – and select ‘Architype Template’. 
 
 <a href="/img/2.1-project-template.png" target="_blank">
-    ![Template](img/2.1-project-template.png){: style="height:200px" :target="_blank"}
+    ![Template](img/project-template.png){: style="height:200px" :target="_blank"}
 </a>
 
 Architype’s Revit Template is a read-only document and must not be edited by any member of staff.
@@ -27,13 +27,13 @@ The project base point defines the origin (0,0,0) of the project coordinate syst
 The internal origin is the starting point for the internal coordinate system, which provides the basis for positioning all elements in the model. The location of the internal origin never moves. It’s the origin from which the survey point (and real-world context) and project base point are established. 
 
 <a href="/img/02-project-base-point.png" target="_blank">
-    ![Template](img/02-project-base-point.png){: style="height:200px" :target="_blank"}
+    ![Template](img/project-base-point.png){: style="height:200px" :target="_blank"}
 </a>
 
 The following table is included within Architype’s standard BIM Execution Plan (BEP) – and, where we are employed as BIM Manager, this will need to be filled in by the project team at the start of the project. 
 
 <a href="/img/02-coordination-table.png" target="_blank">
-    ![Template](img/02-coordination-table.png){: style="height:150px" :target="_blank"}
+    ![Template](img/coordination-table.png){: style="height:150px" :target="_blank"}
 </a>
 
 # Project Units

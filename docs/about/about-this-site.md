@@ -6,7 +6,7 @@ Standardisation plays an important role in the exchange of information. It helps
 
 Changes to current office standards should apply to new projects only, and is at the discretion of the BIM Information Managment team.
 
-Where project specific BIM procedures are required then they should be read in conjunction with this manual but project specific standards will take precedence over this manual. 
+Where project specific BIM procedures are required then they should be read in conjunction with this guidance but project specific standards will take precedence over this guidance pending review by the BIM Information Managment team. 
 
 ---
 

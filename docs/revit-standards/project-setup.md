@@ -2,7 +2,7 @@
 
 ---
 
-## Folder Structure
+## Project Template
 
 Where a new project is created in Revit the most up to date version of the ‘Architype Template’ shall be used. This no longer requires users to locate the template on the server, instead, simply open Revit, go to ‘File’ ‘New’ – and select ‘Architype Template’. 
 
@@ -20,7 +20,10 @@ The template will be regularly updated to ensure compliance with current BS EN I
 ## Coordinate system
 All Revit models shall use a consistent and uniform coordinate system throughout the project’s lifecycle to ensure information is always precisely aligned. 
 
-Shared coordinates should **only** be acquired from a **separate site model** i.e. you should create a geolocated site model from a survey to share with all other disciplines. The main building is then modelled in a separate Revit file. This will make it easier for other consultants to acquire coordinates, it is also easier if the building needs to move.
+Shared coordinates should **only** be acquired from a **separate site model** i.e. a geolocated site model should be created from a survey to share with all other disciplines. The main building is then modelled in a separate Revit file. This will make it easier for other consultants to acquire coordinates, it is also easier if the building needs to move.
+
+!!! Attention
+    It is important that this part of the project is carried out correctly as it can have a lasting effect on a project if done incorrectly. This should **only** be done by a member of the BIM managment team.
 
 ### Survey Point
 The survey point identifies a real-world location near the model, such as a corner of the project site or the intersection of 2 property lines. It defines the origin of the survey coordinate system, which provides a real-world context for the model. 

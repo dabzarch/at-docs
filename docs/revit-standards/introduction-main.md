@@ -14,7 +14,7 @@ It is really important that everyone at Architype uses these standards, and does
 
 However, we are always open to ideas – any suggestions please do let us know, so they can be incorporated into future revisions. The document will be regularly updated to ensure compliance with current BS EN ISO Standards. The latest guidance can always be found on this online hub or on the Architype Server in '.pdf' format in CAD Setup-Revit-Standards.
 
-In some instances, a project specific standard may need to take precedence over this Revit standard. If so, this will be advised by the BIM Co-Ordinator on the specific project as part of the Information Management/ BIM requirements. In these cases we ask that the Project Architect informs one of Architype’s Information Management team, to ensure that there are no wider implications. 
+In some instances, a project specific standard may need to take precedence over this Revit standard. If so, this will be advised by the BIM Co-Ordinator on the specific project as part of the Information Management/BIM requirements. In these cases we ask that the Project Architect informs one of Architype’s Information Management team, to ensure that there are no wider implications. 
 
 We hope that this will be a welcome addition,
 
@@ -26,16 +26,16 @@ We hope that this will be a welcome addition,
 
 * [x] Have you done this?
 * [ ] This has not been done.
-* [ ] This is a feature to be aded in parts
+* [ ] This is a feature to be added in parts
     * [x] Part A
     * [ ] Part B
 
 **November 2020**
 
-* [x] Have you done this?
+* [ ] Have you done this?
 * [ ] This has not been done.
 
-???+ question
+!!! Question
     **If you have any suggestions you would like to see added this guidance please contact...**
 
 ---
