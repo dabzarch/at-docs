@@ -15,7 +15,7 @@ This is a work-in-progress repository of teaching videos for the PHPP Window Fam
 
 #### Controlling Offset of Windows with Global Parameters in Revit
 
-<video style="width:100%" controls src="/videos/ART_GlobalParameters.mp4" type="video/mp4">
+<video style="width:100%" controls src="../../videos/ART_GlobalParameters.mp4" type="video/mp4">
 </video>
 
 ---
