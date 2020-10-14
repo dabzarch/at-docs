@@ -6,7 +6,7 @@
 
 Where a new project is created in Revit the most up to date version of the ‘Architype Template’ shall be used. This no longer requires users to locate the template on the server, instead, simply open Revit, go to ‘File’ ‘New’ – and select ‘Architype Template’. 
 
-<a href="/img/project-template.png" target="_blank">
+<a href=".././img/project-template.png" target="_blank">
     ![Template](img/project-template.png){: style="height:200px" :target="_blank"}
 </a>
 
@@ -34,13 +34,13 @@ The project base point defines the origin (0,0,0) of the project coordinate syst
 ### Internal Origin (or Start-up Location):
 The internal origin is the starting point for the internal coordinate system, which provides the basis for positioning all elements in the model. The location of the internal origin never moves. It’s the origin from which the survey point (and real-world context) and project base point are established. 
 
-<a href="/img/project-base-point.png" target="_blank">
+<a href=".././img/project-base-point.png" target="_blank">
     ![Template](img/project-base-point.png){: style="height:200px" :target="_blank"}
 </a>
 
 The following table is included within Architype’s standard BIM Execution Plan (BEP) – and, where we are employed as BIM Manager, this will need to be filled in by the project team at the start of the project. 
 
-<a href="/img/coordination-table.png" target="_blank">
+<a href=".././img/coordination-table.png" target="_blank">
     ![Template](img/coordination-table.png){: style="height:150px" :target="_blank"}
 </a>
 
@@ -65,7 +65,7 @@ Default project units shall be as set out in the table below:
 !!! Attention
     **Note: temporary dimensions (such as the below screenshot) will display with decimal places.**
 
-<a href="/img/project-units.png" target="_blank">
+<a href=".././img/project-units.png" target="_blank">
     ![Template](img/project-units.png){: style="height:350px" :target="_blank"}
 </a>
 
@@ -83,7 +83,7 @@ These can be found, and edited, in the properties bar of a selected sheet or vie
  
 In order to set up this organisation at the start of a project, follow the steps set out below: 
 
-<a href="/img/project-browser-sheets.png" target="_blank">
+<a href=".././img/project-browser-sheets.png" target="_blank">
     ![Template](img/project-browser-sheets.png){: style="height:275px" :target="_blank"}
 </a>
 
@@ -102,7 +102,7 @@ To ensure that the project browser stays as organised as possible, views from th
 
 Although this process is incorporated into the Architype Template, for those working in projects already set up on previous templates, the process below can be followed. 
 
-<a href="/img/project-browser-views.png" target="_blank">
+<a href=".././img/project-browser-views.png" target="_blank">
     ![Template](img/project-browser-views.png){: style="height:250px" :target="_blank"}
 </a>
 
@@ -118,7 +118,7 @@ Secondly, the job will be set up as a project on BIM360 (this will be done by on
 
 Once all of this is in place, the model should be pushed to the cloud using the ‘collaborate’ tab as shown below. 
 
-<a href="/img/create-cloud-model.png" target="_blank">
+<a href=".././img/create-cloud-model.png" target="_blank">
     ![Template](img/create-cloud-model.png){: style="height:425px" :target="_blank"}
 </a>
 
@@ -133,7 +133,7 @@ for more information on creating a cloud model from the Autodesk Knowledge Netwo
 
 The template file contains a ‘Starting View’. This is the view which holds key project information and opens up first when you open Revit. Once in Revit, it can be found within Legends in the Project Browser.
 
-<a href="/img/template-starting-view.png" target="_blank">
+<a href=".././img/template-starting-view.png" target="_blank">
     ![Template](img/template-starting-view.png){: style="height:500px" :target="_blank"}
 </a>
 
@@ -158,7 +158,7 @@ While filling in the required information on the Starting View, the Project Loca
 ### Project Location: 
 ‘Manage’ tab – ‘Project Location’ category – ‘Location’ button. The address of the site should be entered here.
 
-<a href="/img/project-location.png" target="_blank">
+<a href=".././img/project-location.png" target="_blank">
     ![Template](img/project-location.png){: style="height:250px" :target="_blank"}
 </a>
 
@@ -167,7 +167,7 @@ While filling in the required information on the Starting View, the Project Loca
 
 Enter all known project information here.
 
-<a href="/img/project-information.png" target="_blank">
+<a href=".././img/project-information.png" target="_blank">
     ![Template](img/project-information.png){: style="height:400px" :target="_blank"}
 </a>
 
@@ -204,7 +204,7 @@ This will allow the other teams to control the graphical representation of datum
 
 Under the ‘Collaborate’ tab there is a ‘Copy/Monitor’ button, select this then ‘Select Link’ and click on the link you wish to copy/monitor levels from. A new options bar will appear, select ‘Copy’, tick ‘Multiple’ then click on to the levels. Note that you must select the small finish button after clicking on each level, when that’s done select the large finish button to end the process. 
 
-<a href="/img/copy-monitor.png">
+<a href=".././img/copy-monitor.png">
     ![Template](img/copy-monitor.png){: style="height:150px"}
 </a>
 
@@ -216,7 +216,7 @@ for more information on creating a cloud model from the Autodesk Knowledge Netwo
 All drawings which are issued from Revit will require a revision (the first time a drawing is issued it will go out as Rev 01). Nothing will ever be issued as Rev – or Rev 0. For more information refer to Section 4.
 To add a revision to the project, go to the ‘View Tab’ – the ‘Sheet Composition’ panel – then click ‘Revisions’. Add a revision and fill in all the required information:
 
-<a href="/img/sheet-issues-revisions.png" target="_blank">
+<a href=".././img/sheet-issues-revisions.png" target="_blank">
     ![Template](img/sheet-issues-revisions.png){: style="height:400px" :target="_blank"}
 </a>
 
@@ -230,12 +230,12 @@ To add a revision to the project, go to the ‘View Tab’ – the ‘Sheet Comp
 
 To enter a revision onto a sheet, go to the properties of the sheet and select the ‘Edit’ button beside options. This will allow you to tick the revisions you want to add to the sheet. 
 
-<a href="/img/issued-by.png" target="_blank">
+<a href=".././img/issued-by.png" target="_blank">
     ![Template](img/issued-by.png){: style="height:80px" :target="_blank"}
 </a>
 
 This is how they will appear in the Titleblock:
 
-<a href="/img/title-block-revisions.png" target="_blank">
+<a href=".././img/title-block-revisions.png" target="_blank">
     ![Template](img/title-block-revisions.png){: style="height:80px" :target="_blank"}
 </a>
