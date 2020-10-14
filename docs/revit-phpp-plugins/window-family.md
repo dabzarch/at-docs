@@ -8,7 +8,7 @@ This is a work-in-progress repository of teaching videos for the PHPP Window Fam
 
 #### Populating Thermal Bridge Value using Architype PHPP Script
 
-<video style="width:100%" controls src="/videos/ART_ThermalBridge.mp4" type="video/mp4">
+<video style="width:100%" controls src="../../videos/ART_ThermalBridge.mp4" type="video/mp4">
 </video>
 
 ---
