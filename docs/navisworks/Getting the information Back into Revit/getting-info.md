@@ -1,0 +1,1 @@
+Once you have carried out your coordination you need to start making the changes in the original model where it was created. There are a few ways in which this can be done. 
