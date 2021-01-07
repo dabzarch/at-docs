@@ -2,6 +2,7 @@
     font-size: 14px;
     color: grey;
     font-style: italic;
+    text-align: left;
 }
 
 .iframe-container{
@@ -18,4 +19,22 @@
     position: absolute;
     top: 0;
     width: 100%;
+}
+
+.center {
+    display: block;
+    margin: auto;
+  }
+
+.right {
+    display: inline-block;
+    float:right;
+    margin-left:15px;
+}  
+
+.img-centre{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px;
 }
