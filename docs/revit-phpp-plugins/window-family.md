@@ -6,16 +6,18 @@ This is a work-in-progress repository of teaching videos for the PHPP Window Fam
 
 ---
 
-#### Populating Thermal Bridge Value using Architype PHPP Script
+#### Accessing *Architype Learn* from within Revit
 
-<video style="width:100%" controls src="../../videos/ART_ThermalBridge.mp4" type="video/mp4">
-</video>
-
+<div class="iframe-container">
+    <iframe src="https://player.vimeo.com/video/486742597" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+</div>
 ---
 
 #### Controlling Offset of Windows with Global Parameters in Revit
 
-<video style="width:100%" controls src="../../videos/ART_GlobalParameters.mp4" type="video/mp4">
-</video>
+<div class="iframe-container">
+    <iframe src="https://player.vimeo.com/video/486742597" width="100%" height="auto" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+</div>
+
 
 ---

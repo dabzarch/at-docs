@@ -57,7 +57,30 @@ nav:
     - Introduction: revit-phpp-plugins/introduction-phpp-plugins.md
     - PHPP Window Family: revit-phpp-plugins/window-family.md
   - Navisworks: 
-    - Introduction: navisworks/introduction-navisworks.md
+    - Background: navisworks/Background/background.md
+    - Supported File Types: navisworks/Supported File Types/supported-file-types.md
+    - Exporting From Revit: 
+      - Exporting From Revit: navisworks/Exporting From Revit/exporting-from-revit.md
+      - Settings Explained: navisworks/Exporting From Revit/Settings explained/settings-explained.md
+    - Appending Models: navisworks/Appending Models/appending-models.md
+    - Comparing Models: navisworks/Comparing Models/comparing-models.md
+    - Creating Search Sets: navisworks/Creating Search Sets/creating-search-sets.md
+    - Creating Clash Tests: 
+      - Creating Clash Tests: navisworks/Creating Clash Tests/creating-clash-tests.md
+      - Basic Clash Test: navisworks/Creating Clash Tests/Basic Clash Test/basic-clash-test.md
+      - Advanced Clash Test: navisworks/Creating Clash Tests/Advanced Clash Test/advanced-clash-test.md
+    - Grouping the Clash Results: 
+      - Grouping the Clash Results: navisworks/Grouping the Clash Results/grouping-the-clash-results.md
+      - Group Clashes Involving Item: navisworks/Grouping the Clash Results/Group Clashes Involving Item/grouping-clashes-involving-item.md
+      - Group Clashes from Items Selected: navisworks/Grouping the Clash Results/Group Clashes from Items Selected/group-clashes-from-items-selected.md
+    - Visual Coordination: navisworks/Visual Coordination/visual-coordination.md
+    - Getting the information Back into Revit:       
+      - By ID Number: navisworks/Getting the information Back into Revit/By ID Number/by-id-number.md
+      - Navisworks SwitchBack: navisworks/Getting the information Back into Revit/Navisworks SwitchBack/navisworks-switchback.md
+    - Navisworks Template: navisworks/Navisworks Template/navisworks-template.md
+    - Publishing the Model:       
+      - NWC to NWD: navisworks/Publishing the Model/NWC to NWD/nwc-to-nwd.md
+      - NWF to NWD: navisworks/Publishing the Model/NWF to NWD/nwf-to-nwd.md
   - BIMCollab: 
     - Introduction: bimcollab/introduction-bimcollab.md
   - About: about/about-this-site.md

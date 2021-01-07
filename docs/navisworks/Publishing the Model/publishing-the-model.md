@@ -1,0 +1,1 @@
+Publishing the model is the process of taking either an NWC file or an NWF file and publishing them to an NWD file. NWD is the correct file type that we should be issuing out other disciplines. 
