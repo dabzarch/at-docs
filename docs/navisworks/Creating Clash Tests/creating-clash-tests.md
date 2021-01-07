@@ -1,6 +1,6 @@
 # Creating Clash Tests
 
-Clash tests can only be created, edited or even just viewed in Navisworks Manage as Clash Detection is seen by Navisworks as their key feature and only make assessable in their most expensive version of the software. There are ways to run clash detection and view results within Simulate or even Freedom (see [Reporting the Clash Results](/navisworks/Visual Coordination/visual-coordination/) and [Issuing the Model for details](/navisworks/Publishing the Model/NWC to NWD/nwc-to-nwd/)).
+Clash tests can only be created, edited or even just viewed in Navisworks Manage as Clash Detection is seen by Navisworks as their key feature and only make assessable in their most expensive version of the software. There are ways to run clash detection and view results within Simulate or even Freedom (see [Reporting the Clash Results](../../Visual Coordination/visual-coordination/) and [Issuing the Model for details](../../Publishing the Model/NWC to NWD/nwc-to-nwd/)).
 
 Clash detection can be split into two types, Basic and Advanced. Basic is when you clash Model A against Model B and you leave the settings as they are. Advanced is when you clash specific discipline categories against specific discipline categories. If this is done properly you will end up with the same results but with the advanced clash detection the results are easier to review/understand and because the numbers are smaller they appear far easier to resolve. 
 

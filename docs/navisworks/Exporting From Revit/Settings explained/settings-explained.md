@@ -85,7 +85,7 @@ When this check box is selected (the default option), the file reader looks for 
 
 Note: If any inappropriate materials are applied to the model geometry as a result, clear this check box to fix the problem.
 
-Once you have selected the appropriate settings save your NWC into the appropriate project folder. After you have exported the file to NWC you should now open it in Navisworks, visually inspect it (see [Visual Coordination](/navisworks/Visual Coordination/visual-coordination/)) and export it to an NWD file (see [Publishing the Model](/navisworks/Publishing the Model/NWC to NWD/nwc-to-nwd/))
+Once you have selected the appropriate settings save your NWC into the appropriate project folder. After you have exported the file to NWC you should now open it in Navisworks, visually inspect it (see [Visual Coordination](../../../Visual Coordination/visual-coordination/)) and export it to an NWD file (see [Publishing the Model](../../../Publishing the Model/NWC to NWD/nwc-to-nwd/))
 
 
 <br>
