@@ -5,7 +5,7 @@ Appending models is the term Navisworks uses for linking models. When you open N
 To append files go to the Home tab and click on Append
 
 <a href="../.././img/appending-models-1.png" target="_blank">
-    ![Template](/navisworks/img/appending-models-1.png){: style="height:auto" :target="_blank"}
+    ![Template](../img/appending-models-1.png){: style="height:auto" :target="_blank"}
 </a>
 
 
