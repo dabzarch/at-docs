@@ -2,4 +2,39 @@
     font-size: 14px;
     color: grey;
     font-style: italic;
+    text-align: left;
+}
+
+.iframe-container{
+    overflow: hidden;
+    /*16:9 aspect ration*/
+    padding-top: 56.25%;
+    position: relative;
+}
+
+.iframe-container iframe{
+    border: 0;
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+
+.center {
+    display: block;
+    margin: auto;
+  }
+
+.right {
+    display: inline-block;
+    float:right;
+    margin-left:15px;
+}  
+
+.img-centre{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px;
 }
