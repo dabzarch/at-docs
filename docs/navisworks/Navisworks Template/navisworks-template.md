@@ -11,10 +11,10 @@ To load the Digital Guerrilla - Navisworks_SelectionSets_P01 template go to:
 Home > Select & Search/ Sets > Manage Sets… > Import Search Sets… >
 
 <a href="../.././img/navisworks-template-1.png" target="_blank">
-    ![Template](/navisworks/img/navisworks-template-1.png){: style="height:auto" :target="_blank"}
+    ![Template](../img/navisworks-template-1.png){: style="height:auto" :target="_blank"}
 </a>
 <a href="../.././img/navisworks-template-2.png" target="_blank">
-    ![Template](/navisworks/img/navisworks-template-2.png){: style="height:auto" :target="_blank"}
+    ![Template](../img/navisworks-template-2.png){: style="height:auto" :target="_blank"}
 </a>
 
 This will load Search Sets ONLY – alternatively you can load the Clash Tests which will also load the Search Sets.
@@ -24,16 +24,16 @@ To load the Digital Guerrilla - Navisworks_ClashTests _P01 template go to:
 Home > Clash Detective > Import Clash Test >
 
 <a href="../.././img/navisworks-template-3.png" target="_blank">
-    ![Template](/navisworks/img/navisworks-template-3.png){: style="height:auto" :target="_blank"}
+    ![Template](../img/navisworks-template-3.png){: style="height:auto" :target="_blank"}
 </a>
 
 What you will now see is all the clash tests have been created and if you go to Manage Sets you will see that a series of search sets have been created. 
 
 <a href="../.././img/navisworks-template-4.png" target="_blank">
-    ![Template](/navisworks/img/navisworks-template-4.png){: style="height:auto" :target="_blank"}
+    ![Template](../img/navisworks-template-4.png){: style="height:auto" :target="_blank"}
 </a>
 <a href="../.././img/navisworks-template-5.png" target="_blank">
-    ![Template](/navisworks/img/navisworks-template-5.png){: style="height:auto" :target="_blank"}
+    ![Template](../img/navisworks-template-5.png){: style="height:auto" :target="_blank"}
 </a>
 
 !!! Info 

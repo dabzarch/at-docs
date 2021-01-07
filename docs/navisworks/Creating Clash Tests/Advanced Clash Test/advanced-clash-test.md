@@ -1,7 +1,7 @@
 For advanced clash tests we follow the same procedure. So we Add Test and name it something appropriate such as MEP-Ducts vs Str-Floors. In selection A we change it from Standard to Sets. This now allows us to pick from the Search Sets that we have made. We do the same for Selection B.
 
 <a href="../../.././img/advanced-clash-test-1.png" target="_blank">
-    ![Template](/navisworks/img/advanced-clash-test-1.png){: style="height:auto" :target="_blank"}
+    ![Template](../../img/advanced-clash-test-1.png){: style="height:auto" :target="_blank"}
 </a>
 
 You then need to select the settings to ensure you get results you want. Starting with Type:
@@ -32,7 +32,7 @@ In the Rules tab there are 4 rules by default. You want these ticked except for 
 
 
 <a href="../../.././img/advanced-clash-test-2.png" target="_blank">
-    ![Template](/navisworks/img/advanced-clash-test-2.png){: style="height:auto" :target="_blank"}
+    ![Template](../../img/advanced-clash-test-2.png){: style="height:auto" :target="_blank"}
 </a>
 
 Useful Tip – change all these settings when you create the first clash test as it will remember them when you create your next one. There is no way of changing all the settings in one go once you have multiple clash tests and you will have to change all them individually.  

@@ -5,9 +5,9 @@ For Navisworks SwitchBack to work we need to first turn it on in Revit. If you h
 In Navisworks there is two ways of using SwitchBack. Firstly you can right click on the item and choose SwitchBack or if you are selecting the item through Clash Detective then there is a button to press that will do SwitchBack. 
 
 <a href="../../.././img/navisworks-switch-back-1.png" target="_blank">
-    ![Template](/navisworks/img/navisworks-switch-back-1.png){: style="height:auto" :target="_blank"}
+    ![Template](../../img/navisworks-switch-back-1.png){: style="height:auto" :target="_blank"}
 </a><a href="../../.././img/navisworks-switch-back-2.png" target="_blank">
-    ![Template](/navisworks/img/navisworks-switch-back-2.png){: style="height:50px" :target="_blank"}
+    ![Template](../../img/navisworks-switch-back-2.png){: style="height:50px" :target="_blank"}
 </a>
 
 When using the button from Clash Detective ensure you select the button on the correct size of the results in order for it to recognise the item. 
