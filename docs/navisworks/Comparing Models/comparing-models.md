@@ -2,22 +2,22 @@
 
 We can use Navisworks to compare 2 versions of the same model in order to find out what has changed between model issues. The tool in Navisworks is quite basic but it is a good place to start when you want to know what the main changes are when you receive models from other disciplines. 
 
-To compare models we start in the same way as if we were just [appending models](../../Appending Models/appending-models/) but this time it’s more important that we add the models in the correct order starting with the latest model and then adding the previous model. Once the models have been appended we need to select the models to compare. To do this you open the Selection Tree which can be found in the Home tab and then Select & Search. Once this is open you will see the 2 models listed. You select them both and then from Tools in the Home tab
+To compare models we start in the same way as if we were just [appending models](../../../Appending Models/appending-models/) but this time it’s more important that we add the models in the correct order starting with the latest model and then adding the previous model. Once the models have been appended we need to select the models to compare. To do this you open the Selection Tree which can be found in the Home tab and then Select & Search. Once this is open you will see the 2 models listed. You select them both and then from Tools in the Home tab
 
 
 <a href="../.././img/comparing-models-1.png" target="_blank">
-    ![Template](../img/comparing-models-1.png){: style="height:auto" :target="_blank"}
+    ![Template](../../img/comparing-models-1.png){: style="height:auto" :target="_blank"}
 </a>
 
 <a href="../.././img/comparing-models-2.png" target="_blank">
-    ![Template](../img/comparing-models-2.png){: style="height:auto" :target="_blank"}
+    ![Template](../../img/comparing-models-2.png){: style="height:auto" :target="_blank"}
 </a>
 
 
 Once you have selected the Compare tool a dialog box appears that allows you to choose how you want the comparison tool to work.
 
 <a href="../.././img/comparing-models-3.png" target="_blank">
-    ![Template](../img/comparing-models-3.png){: style="height:auto" :target="_blank"}
+    ![Template](../../img/comparing-models-3.png){: style="height:auto" :target="_blank"}
 </a>
 
 You can find differences between a few different settings but within Navisworks Geometry is the only setting we really want to choose. This is because the tool is quite basic and highlighting the other settings will make the results unclear. We can also change how the results are shown. 

@@ -51,3 +51,7 @@ Within the Set Manager we can add folders and sub folders which are useful later
 Search Sets can look for any data within Navisworks its understanding where that data comes from and changing your criteria to suit is key to setting them up. 
 
 You can also search for multiple items by adding another row in the Find Items window which create an and statement or change it to an or statement by right clicking and select Or.
+
+<br>
+<br>
+<br>
